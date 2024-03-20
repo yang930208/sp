@@ -3,7 +3,7 @@ void DOWHILE(){ <br/>
   int whileBegin = nextLabel(); <br/>
   int whileEnd = nextLabel(); <br/>
   //跳過do <br/>
-  skip("do");
+  skip("do"); <br/>
   //產生迴圈開始的標籤 <br/>
   emit("(L%d)\n", whileBegin); <br/>
   // 處理迴圈內的陳述 <br/>
