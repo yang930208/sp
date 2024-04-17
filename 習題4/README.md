@@ -3,9 +3,9 @@
 ```
 money=-34805000
 ```
-使用 mutex，用很多密集的提款與存款造成 race condition
+沒有使用 mutex，用很多密集的提款與存款造成 race condition，最終的 Money 會產生錯誤
 ## norace
 ```
 money=10000
 ```
-有用 mutex，用很多密集的提款與存款也不會造成 race condition
+有使用 mutex，用很多密集的提款與存款也不會造成 race condition，最終的 Money 正確
