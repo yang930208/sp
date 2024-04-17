@@ -8,4 +8,4 @@ money=-34805000
 ```
 money=10000
 ```
-有使用 mutex，用很多密集的提款與存款也不會造成 race condition，最終的 Money 正確
+有使用 mutex，用很多密集的提款與存款也不會造成 race condition，最終的 Money 正確，依然維持10000元
