@@ -1,5 +1,5 @@
 ## 用C語言寫編譯器
-user@LAPTOP-RKA7QOAV MINGW64 /d/網頁設計/sp/其中作業 (master)
+user@LAPTOP-RKA7QOAV MINGW64 /d/網頁設計/sp/其中作業 (master)<br>
 $ gcc 1.c -o 1 <br>
 
 user@LAPTOP-RKA7QOAV MINGW64 /d/網頁設計/sp/其中作業 (master)
